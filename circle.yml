@@ -12,7 +12,7 @@ dependencies:
       mkdir -p $HOME/.terraform
       if [ -z "$(ls -A $HOME/.terraform/terraform_${TERRAFORM_VERSION}_linux_amd64.zip)" ]; then
         cd $HOME/.terraform
-        curl -LO https://dl.bintray.com/mitchellh/terraform/terraform_${TERRAFORM_VERSION}_linux_amd64.zip
+        curl -LO https://releases.hashicorp.com/terraform/0.10.4/terraform_${TERRAFORM_VERSION}_linux_amd64.zip
         unzip -o terraform_${TERRAFORM_VERSION}_linux_amd64.zip
       fi
     - sudo cp -fR ~/.terraform/* /usr/local/bin
