@@ -2,7 +2,7 @@ machine:
   ruby:
     version: 2.0.0
   environment:
-    TERRAFORM_VERSION: 0.6.6
+    TERRAFORM_VERSION: 0.10.4
 
 dependencies:
   cache_directories:
