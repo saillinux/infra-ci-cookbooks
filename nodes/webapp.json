@@ -1,0 +1,9 @@
+{
+  "run_list": [
+    "recipe[httpd]",
+    "recipe[base_packages]"
+  ],
+  "automatic": {
+    "ipaddress": "webapp"
+  }
+}
